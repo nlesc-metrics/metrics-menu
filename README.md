@@ -1,6 +1,17 @@
 # metrics
 Brainstorm about implementation and data collection for metrics
 
+Aspects of a metric:
+
+1. What concept does the metric try to capture?
+1. What metrics help paint a picture of that concept
+1. What units is the metric expressed as?
+1. How is the data gathered / aggregated?
+1. How should the numbers be interpreted?
+1. Feasibility / implementation problems
+
+---
+
 1. number of downloads from npm, zenodo, pypi
 1. github pull requests 
 1. github stars
@@ -68,3 +79,13 @@ Brainstorm about implementation and data collection for metrics
 1. follow-up project proposal
 
 (viability indicators)
+
+
+
+---
+
+- Altmetrics
+- contactmomenten TTW valorisation
+- consultancy
+- have people check their agendas for inspiration on metrics
+
