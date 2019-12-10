@@ -78,6 +78,18 @@ Aspects of a metric:
 1. externally funded project extensions 
 1. follow-up project proposal
 
+
+---
+RSD 
+
+1. Number of software packages in RSD as of December 2019
+1. Organisations co-developing our research software
+1. Software packages with a DOI
+1. Projects based on free and open source code
+1. Linked scientific publications
+1. Unique mainstream media publications
+1. Total mentions of our software packages in for example journal articles, presentations, newspaper articles or blog posts.
+
 (viability indicators)
 
 
