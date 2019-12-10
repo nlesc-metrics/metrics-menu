@@ -1,6 +1,10 @@
 # Number of downloads
 
-Count the number of downloads of a piece of software
+Counts the number of downloads of a piece of software
+
+## List of metrics
+
+Download numbers from github, Zenodo, and relevant package managers (pypi, npm, bintray, conda, etc). 
 
 ## What concept does the metric try to capture?
 
@@ -12,7 +16,7 @@ Number of downloads per month or year
 
 ## How is the data gathered ? 
 
-Retrieve download numbers from github, Zenodo, and relevant package managers (pypi, npm, bintray, conda, etc). 
+Retrieve download numbers from different sources through their API.
 
 ## How is the data gathered aggregated?
 
