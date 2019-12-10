@@ -1,28 +1,33 @@
 # recent commits
 
-1. List of metrics
+## List of metrics
 
-    github commits
+github commits
 
-1. What concept do the metrics capture?
+## What concept do the metrics capture?
 
-    Activity: potential users tend to look for actively maintained software.
+Activity: potential users tend to look for actively maintained software.
 
-1. What units is the metric expressed as?
+## What units is the metric expressed as?
 
-    commits
+commits
 
-1. How is the data gathered / aggregated?
+## How is the data gathered?
 
-    Github has their own API which provides access to the commit data. We could set
-an arbitrary period of say 0.5 year, and see if there is any significant (again
-arbitrary level) activity.
+Github has their own API which provides access to the commit data.
 
-1. How should the numbers be interpreted?
+## How is the data aggregated?
 
-    - low v high number of total commits: relates to project age, granularity of commits, number of contributors
-    - recent commits v no recent commits: relates to activity
+We could set an arbitrary period of say 0.5 year, and see if there is any
+significant (again arbitrary level) activity.
 
-1. Feasibility / implementation problems
+## How should the numbers be interpreted?
 
-    github: implementation is feasible for projects that are public composing the list of repositories for which to query the GitHub API is probably the biggest challenge.
+- low v high number of total commits: relates to project age, granularity of commits, number of contributors
+- recent commits v no recent commits: relates to activity
+
+## Feasibility / implementation problems
+
+github: implementation is feasible for projects that are public composing the
+list of repositories for which to query the GitHub API is probably the biggest
+challenge.
