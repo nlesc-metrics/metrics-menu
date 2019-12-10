@@ -18,11 +18,11 @@ Retrieve download numbers from github, Zenodo, and relevant package managers (py
 
 In theory they can be added into a single number, althought this may lead to issues (see below). 
 
-# How should the numbers be interpreted?
+## How should the numbers be interpreted?
 
 They are a proxy for how often the software is "used"
 
-# Feasibility / implementation problems
+## Feasibility / implementation problems
 
 A significant part of the download numbers may not represent a human user, but an automated process instead. 
 For example, Zenodo is harvested by many other sites (openaire, narcis-via-RSD, etc), package managers may be 
