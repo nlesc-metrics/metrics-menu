@@ -6,7 +6,8 @@ Aspects of a metric:
 1. List of metrics
 1. What concept do the metrics capture?
 1. What units is each metric expressed as?
-1. How is the data gathered, aggregated?
+1. How can the data be gathered?
+1. How can the data be aggregated?
 1. How should the numbers be interpreted?
 1. Feasibility / implementation problems
 
@@ -16,6 +17,7 @@ Aspects of a metric:
 1. github pull requests 
 1. github stars
 1. github "reused by"
+1. github packages
 1. "output"
 1. "impact"
 1. number of blogs
@@ -100,4 +102,5 @@ RSD
 - contactmomenten TTW valorisation
 - consultancy
 - have people check their agendas for inspiration on metrics
+- shields.io
 
