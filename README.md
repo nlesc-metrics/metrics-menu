@@ -12,7 +12,7 @@ Aspects of a metric:
 
 ---
 
-1. number of downloads from npm, zenodo, pypi
+1. **number of downloads from npm, zenodo, pypi**
 1. github pull requests 
 1. github stars
 1. github "reused by"
@@ -33,10 +33,10 @@ Aspects of a metric:
 1. release process contribution
 1. contributions to forums
 1. contributing to stackoverflow
-1. number of releases
-1. number of commits
+1. **number of releases**
+1. **number of commits**
 1. commit pattern
-1. number of contributors
+1. **number of contributors**
 1. total peer review publications met nlesc author
 1. total peer review publications zonder nlesc author
 1. total niet-peer review publications met nlesc author
