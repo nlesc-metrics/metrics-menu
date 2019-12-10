@@ -3,10 +3,10 @@ Brainstorm about implementation and data collection for metrics
 
 Aspects of a metric:
 
-1. What concept does the metric try to capture?
-1. What metrics help paint a picture of that concept
-1. What units is the metric expressed as?
-1. How is the data gathered / aggregated?
+1. List of metrics
+1. What concept do the metrics capture?
+1. What units is each metric expressed as?
+1. How is the data gathered, aggregated?
 1. How should the numbers be interpreted?
 1. Feasibility / implementation problems
 
