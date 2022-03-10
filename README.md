@@ -24,11 +24,13 @@ Based on the list, the project stakeholders can come to an agreement with the Pr
 
 The preferred way of proposing a new metric is via GitHub's issue tracker. When making an issue, people will be shown the following website:
 
-![image](https://user-images.githubusercontent.com/4558105/157680699-f42fb3c0-e239-499e-a493-a3f3958de299.png)
+![157680699-f42fb3c0-e239-499e-a493-a3f3958de299](https://user-images.githubusercontent.com/4558105/157683671-dc9bb5d8-498b-4556-b3c2-abb2d2d1f0ea.png)
+
 
 When they subsequently choose: _New metric_, they will be show the following issue template:
 
-![image](https://user-images.githubusercontent.com/4558105/157681005-8dd5e237-7269-4d97-8a46-379deaee1176.png)
+![157681005-8dd5e237-7269-4d97-8a46-379deaee1176](https://user-images.githubusercontent.com/4558105/157683690-b7408934-118d-4723-8906-c2aa3cdade79.png)
+
 
 For a small set of people, making issues on GitHub is not convenient. For them, simply writing an email to the Program Managers with a description of the proposed idea is the best way; Program Managers can then make the issue instead. This ensures that there is a public record of what was proposed, as well as of the ensuing discussion, and ultimately of the decision on whether or not the proposal was added as a new metric.
 
