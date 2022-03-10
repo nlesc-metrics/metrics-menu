@@ -1,106 +1,40 @@
-# metrics
-Brainstorm about implementation and data collection for metrics
+# Proposal for implementing the collection of metrics 
 
-Aspects of a metric:
+As the Netherlands eScience Center grows, keeping track of all the things we do is becoming increasingly difficult. This is a problem, for example for:
 
-1. List of metrics
-1. What concept do the metrics capture?
-1. What units is each metric expressed as?
-1. How can the data be gathered?
-1. How can the data be aggregated?
-1. How should the numbers be interpreted?
-1. Feasibility / implementation problems
+1. Directors, who need to inform themselves about the state of the organization in order to steer the organization effectively, 
+1. Program Managers, who need to know the history of projects,
+1. Community Managers, who want to know what is being worked on,
+1. Policy Advisors, who need to prepare various reports
+1. etc.
 
----
+This document outlines an approach for keeping track of various metrics. Some key points of the proposed approach are:
 
-1. **number of downloads from npm, zenodo, pypi**
-1. github pull requests 
-1. github stars
-1. github "reused by"
-1. github packages
-1. "output"
-1. "impact"
-1. number of blogs
-1. number of blog reads
-1. number of claps
-1. number of tweets
-1. number of tweet followers
-1. (Rheeder report stats)
-1. source code contributions
-    - our people contributing to external projects v. external people contributing to our projects
-    - while the project is running v. after the project has ended
-1. documentation contribution
-1. build structure contribution
-1. packaging contribution
-1. release process contribution
-1. contributions to forums
-1. contributing to stackoverflow
-1. **number of releases**
-1. **number of commits**
-1. commit pattern
-1. **number of contributors**
-1. total peer review publications met nlesc author
-1. total peer review publications zonder nlesc author
-1. total niet-peer review publications met nlesc author
-1. total niet-peer review publications zonder nlesc author
-1. peer review publications met nlesc author (geaggregeerd per project)
-1. peer review publications zonder nlesc author (geaggregeerd per project)
-1. niet-peer review publications met nlesc author (geaggregeerd per project)
-1. niet-peer review publications zonder nlesc author (geaggregeerd per project)
-1. dependencies
-1. in house re-use: how many project per software package
-1. re-use of software packages
-    - across disciplines v within discipline
-    - project partners v external partners
-    - during project v after the project
-1. outreach: workshops on digital tools
-1. outreach: talks / broadcast to external groups of researchers
-1. societal metrics
-1. acknowledgement of the eScience Center involvement
-1. acknowledgement of a tool
-1. re-use of software by external parties
-1. number of installs of the software
-1. usage statistics for webapps like viaappia, rsd, etc.
-1. invited talks
-1. guest lectures
-1. fair-software.nl 
-1. participation in groups like NPOS, NL-RSE, NWA, RDA, lcrdm
-1. social media statistics
-1. newsletter statistics subscribers, readthrough, number of views
-1. mainstream media: newspapers, radio, magazines
-1. contract research 
-1. public-private partnerships
-1. breadth and diversity in involved stakeholders
-1. marks of recognition from peers: how do project partners rate their experience with us (technical aspects).
-1. awards / honors
-1. relevant memberships
-1. number of externally funded projects (H2020, Horizon Europe, etc)
-1. joint calls with external parties, e.g. Shell, Hartstichting, NSO
-1. keynotes at external events
-1. externally funded project extensions 
-1. follow-up project proposal
+1. The list of what we want to keep track of is changable -- it will never be "done"
+1. The implementation of how we track metrics is changable -- it will never be "done"
+1. The successful implementation of the approach outlined below requires some technical skills, for example for querying APIs, meaningfully aggregating data, and presenting the data as visualizations, but also requires a good understanding of what is needed, for example with respect to which categories of the Self-Evaluation Protocol need to be covered, what the narratives will be for each of these, and how our efforts should be distributed over the various categories.
+
+## General approach
+
+When planning the project, the project stakeholders should discuss which metrics are meaningful to them given the nature of the project. A list of metrics will be provided. The list of metrics can be extended if needed--in fact, such change is expected, and the directors should encourage all employees to help create a meaningful collection covering all aspects of our work, both technical and non-technical. 
+
+Based on the list, the project stakeholders can come to an agreement with the Program Managers, who will record the list of metrics. The project stakeholders and the Program Managers will periodically review the metrics document, making changes if needed. The list of metrics needs to be kept in a public place, preferably close to where the project output lives. This will help bring focus to the work being done in the project.
+
+## How can people propose new metrics?
+
+The preferred way of proposing a new metric is via GitHub's issue tracker. When making 
+- make an issue
+  - explain what the proposed metric is
+  - explain why you think it adds to _our mission_
+  - it's ok if you don't know how to measure something or if the proposed metric cannot be collected in an automated way
 
 
----
-RSD 
+For a small set of people, making issues on GitHub is not convenient. For them, simply writing an email to the Program Managers with a description of the proposed idea is the best way; Program Managers can then make the issue instead. This ensures that there is a public record of what was proposed, as well as of the ensuing discussion, and ultimately of the decision on whether or not the proposal was added as a new metric.
 
-1. Number of software packages in RSD as of December 2019
-1. Organisations co-developing our research software
-1. Software packages with a DOI
-1. Projects based on free and open source code
-1. Linked scientific publications
-1. Unique mainstream media publications
-1. Total mentions of our software packages in for example journal articles, presentations, newspaper articles or blog posts.
+## Who can propose new metrics?
 
-(viability indicators)
+In principle, anybody can propose new metrics, but the Program Managers will judge if a proposed metric is a meaningful addition to the existing list of metrics. In accepting a metric, the Program Managers must weigh the benefit of any new insights the proposed metric will bring against the cost of the required effort.
 
 
-
----
-
-- Altmetrics
-- contactmomenten TTW valorisation
-- consultancy
-- have people check their agendas for inspiration on metrics
-- shields.io
+## Some examples
 
