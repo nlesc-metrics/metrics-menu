@@ -16,7 +16,7 @@ This document outlines an approach for keeping track of various metrics. Some ke
 
 ## General approach
 
-When planning the project, the project stakeholders should discuss which metrics are meaningful to them given the nature of the project. A list of metrics will be provided. The list of metrics can be extended if needed--in fact, such change is expected, and the directors should encourage all employees to help create a meaningful collection covering all aspects of our work, both technical and non-technical. 
+When planning a project, the project stakeholders should discuss which metrics are meaningful to them given the nature of their project. A list of metrics will be provided. The list of metrics can be extended if needed--in fact, such change is expected, and the directors should encourage all employees to help create a meaningful collection covering all aspects of our work, both technical and non-technical.
 
 Based on the list, the project stakeholders can come to an agreement with the Program Managers, who will record the list of metrics. The project stakeholders and the Program Managers will periodically review the metrics document, making changes if needed. The list of metrics needs to be kept in a public place, preferably close to where the project output lives. This will help bring focus to the work being done in the project.
 
@@ -30,7 +30,7 @@ After choosing _New metric_, you will be show the following issue template:
 
 ![issue-template](https://user-images.githubusercontent.com/4558105/157683690-b7408934-118d-4723-8906-c2aa3cdade79.png)
 
-The person proposing a new metric can simply fill in the various sections and be move on with their life. Making issues on GitHub ensures that there is a public record of what was proposed, what points were raised in the ensuing discussion, and whether or not the proposal was added as a new metric.
+The person proposing a new metric can simply fill in the various sections and move on with their life. The Program Managers can subsequently pick up the issue at a time when it is convenient for them. Making issues on GitHub ensures that there is a public record of what was proposed, of the points raised in the ensuing discussion, and of whether or not the proposal was added as a new metric.
 
 For a small set of people within the Center, making issues on GitHub is not convenient. For them, simply writing an email to the Program Managers with a description of the proposed idea suffices; Program Managers can then make the issue in their name. 
 
