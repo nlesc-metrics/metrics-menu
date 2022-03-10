@@ -1,6 +1,6 @@
 ---
 name: Any other issue
-about: 
+about: ''
 title: ''
 labels: 
 assignees: ''
