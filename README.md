@@ -22,19 +22,13 @@ Based on the list, the project stakeholders can come to an agreement with the Pr
 
 ## How can people propose new metrics?
 
-The preferred way of proposing a new metric is via GitHub's issue tracker. If you go to https://github.com/nlesc/metrics/issues, you see this:
-
-
-
-When making an issue, people will be shown the following website:
+The preferred way of proposing a new metric is via GitHub's issue tracker on the repository dedicated to NLeSC metrics collection, https://github.com/nlesc/metrics. When you make a new issue there, you'll be shown the following:
 
 ![issue-types](https://user-images.githubusercontent.com/4558105/157683671-dc9bb5d8-498b-4556-b3c2-abb2d2d1f0ea.png)
 
-
-When they subsequently choose: _New metric_, they will be show the following issue template:
+After choosing _New metric_, you will be show the following issue template:
 
 ![issue-template](https://user-images.githubusercontent.com/4558105/157683690-b7408934-118d-4723-8906-c2aa3cdade79.png)
-
 
 For a small set of people, making issues on GitHub is not convenient. For them, simply writing an email to the Program Managers with a description of the proposed idea is the best way; Program Managers can then make the issue instead. This ensures that there is a public record of what was proposed, as well as of the ensuing discussion, and ultimately of the decision on whether or not the proposal was added as a new metric.
 
