@@ -1,0 +1,5 @@
+id: third-party-repo-contribution
+data-collection: >-
+    Rob sends out an email twice a year to ask engineers for an overview of the contributions
+    they made to external repositories like Boost, Eigen, Citation File Format
+accountable: Frank Seinstra

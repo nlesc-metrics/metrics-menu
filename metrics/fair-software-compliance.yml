@@ -1,3 +1,5 @@
 id: fair-software-compliance
-data-collection: fairtally, howfairis
+data-collection: >-
+  We use fairtally and howfairis to produce an overview of compliance of repositories listed in
+  the Research Software Directory.
 accountable: Frank Seinstra
