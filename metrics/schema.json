@@ -1,0 +1,24 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "accountable": {
+       "enum": [
+         "Annelies van Dam",
+         "Frank J. Seinstra",
+         "Monique van der Linden",
+       ],
+       "type": "string"
+    },
+    "data-collection": {
+      "type": "string"
+    },
+    "id": {
+      "type: " string"
+    }
+  },
+  "required": [
+    "id",
+    "data-collection"
+    "accountable"
+  ]
+}

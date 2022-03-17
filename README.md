@@ -38,6 +38,7 @@ and then what do we do with the metrics list
 
 ## Some examples of how it may work in practice
 
+<!--
 ### Directors example
 
 - Rob: "_I want to know the total number of releases made on GitHub across all of our projects in 2020._"
@@ -47,6 +48,7 @@ TODO
 - Monique: "_I want to know the number of people who were on sick leave for longer than 20 days in 2020._"
 
 TODO
+-->
 
 ### Program Managers example
 
@@ -64,23 +66,29 @@ But when new work is done (or even just planned), project stakeholders and the P
 1. Packages on PyPI
 1. Peer reviewed papers
 
+<!--
 ### Community Managers example
 
 Mateusz: "_I want to know how many trainings we've given this year._"
 
 TODO
+-->
 
+<!--
 ### Policy Advisors example
 
 Tom: "_I want to support the "Our software is sustainable" narrative in the SEP report with numbers._"
 
 TODO
+-->
 
+<!--
 ### Tech Lead example
 
 Jason: "_I want to know if software package X has any license clashes with its own dependencies._"
 
 TODO
+-->
 
 ## How can people propose new metrics?
 
