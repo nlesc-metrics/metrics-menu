@@ -12,13 +12,17 @@
     "data-collection": {
       "type": "string"
     },
+    "data-location": {
+      "type": "string"
+    },
     "id": {
-      "type: " string"
+      "type": "string"
     }
   },
   "required": [
-    "id",
-    "data-collection"
     "accountable"
+    "data-collection",
+    "data-location",
+    "id",
   ]
 }

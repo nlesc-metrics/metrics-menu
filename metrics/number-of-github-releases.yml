@@ -1,4 +1,5 @@
 id: number-of-github-releases
 data-collection: >- We could automatically count the number of github releases for all of
   our repos, but it's currently not implemented.
+data-location:
 accountable: Frank Seinstra
