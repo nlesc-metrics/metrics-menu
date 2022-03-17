@@ -3,7 +3,7 @@
 As the Netherlands eScience Center grows, keeping track of all the things we do is becoming increasingly difficult. This is a problem, for example for:
 
 1. Directors, who need to inform themselves about the state of the organization in order to steer the organization effectively;
-1. Program Managers, who need to keep track of the project goals and what was achieved;
+1. Program Managers, who need to keep track of what was achieved in a given project;
 1. Community Managers, who want to know what is being worked on in the Center at large;
 1. Policy Advisors, who need to prepare various reports;
 1. TechLeads, who need to know the state of a given software package;
@@ -15,7 +15,7 @@ This document outlines how we can start with keeping track of various metrics. S
 1. The implementation of how we track metrics is changable -- it will never be "done".
 1. The successful implementation of the approach outlined below requires some technical skills, for example for querying APIs, meaningfully aggregating data, and presenting the data as visualizations, but also requires a good understanding of what is needed, for example with respect to which categories of the Self-Evaluation Protocol need to be covered, what the narratives will be for each of these, and how our efforts should be distributed over the various categories.
 
-## General approach
+## Approach
 
 There will be a metrics "menu" that lists all the things we can keep track of. Some examples:
 
@@ -32,17 +32,55 @@ There will be a metrics "menu" that lists all the things we can keep track of. S
 1. long-duration sick leave
 1. etc.
 
-**Data demand side**
+<!--  
+and then what do we do with the metrics list
+-->
 
-Having such a metrics menu allows us to keep an up-to-date list of what metrics are needed at any given time.
+## Some examples of how it may work in practice
 
-**Developer side**
+### Directors example
 
-Some of the metrics can be automated. With the metrics menu, developers can prioritize implementation of tools based on demand, ease of implementation, available people, time, etc. The point being that implementation can now happen asynchronously, in a scalable way.
+- Rob: "_I want to know the total number of releases made on GitHub across all of our projects in 2020._"
 
-**Data supply side**
+TODO
 
-Data for a given metric will usually be need to be supplied by someone other than the Program Managers; however the Program Managers are accountable for making sure that certain metrics are tracked. They should make someone responsible for making sure a given metric is registered, the required tools for data collection are activated, and/or the periodic manual data collection happens (for example via email)
+- Monique: "_I want to know the number of people who were on sick leave for longer than 20 days in 2020._"
+
+TODO
+
+### Program Managers example
+
+- Niels: "_I want to know the outputs of project X._"
+
+While planning project X, the project stakeholders and program managers can come to an agreement about what metrics are meaningful given the nature of the project. They can pick and choose from the metrics menu, extending it where necessary. Initially, they may decide on listing only a few things as output, for example:
+
+1. Software repositories on GitHub
+1. Workshops
+
+But when new work is done (or even just planned), project stakeholders and the Program Managers should review the situation in the project and update the list of things that should be recorded as output. For example, after some time goes by they may update the list as follows:
+
+1. Software repositories on GitHub
+1. Workshops
+1. Packages on PyPI
+1. Peer reviewed papers
+
+### Community Managers example
+
+Mateusz: "_I want to know how many trainings we've given this year._"
+
+TODO
+
+### Policy Advisors example
+
+Tom: "_I want to support the "Our software is sustainable" narrative in the SEP report with numbers._"
+
+TODO
+
+### Tech Lead example
+
+Jason: "_I want to know if software package X has any license clashes with its own dependencies._"
+
+TODO
 
 ## How can people propose new metrics?
 
@@ -61,50 +99,3 @@ For a small set of people within the Center, making issues on GitHub is not conv
 ## Who can propose new metrics?
 
 In principle, anybody can propose new metrics, but the Program Managers will judge if a proposed metric is a meaningful addition to the existing list of metrics. In accepting a metric, the Program Managers must weigh the benefit of any new insights the proposed metric will bring against the cost of the required effort.
-
-
-## Some examples
-
-### Tracking impact in a project
-
-When planning a project, the project stakeholders should discuss what metrics are meaningful to them given the nature of their project. A list of possible metrics (the "_metrics menu_") will be provided. The metrics menu can be extended if needed--in fact, such change is expected, and the Directors should encourage all employees to help create a meaningful collection of metrics that cover all aspects of our work, both technical and non-technical.
-
-Based on the metrics menu, the project stakeholders can come to an agreement with the Program Managers, who will record which metrics are thought to be relevant. The project stakeholders and the Program Managers will periodically review the situation in the project and whether they want to make changes to the list of metrics relevant to them. The list of metrics needs to be kept in a public place, preferably close to where the project output lives. This will help bring focus to the work being done in the project.
-
-### Directors example
-
-- Rob: "_I want to know the total number of releases made on GitHub across all of our projects in 2020_"
-- Monique: "_I want to know the number of people who were on sick leave for longer than 20 days in 2020_"
-
-### Program Managers example
-
-Niels: 
-
-### Community Managers example
-
-Carlos:
-
-### Policy Advisors example
-
-Tom: 
-
-### Tech Lead example
-
-Jason:
-
-<!-- 
-
-Demand side
-
-The metrics menu covers the demand side of things (specific people stating their need for specific metrics, and why they need such data).
-
-Data supply side
-
-By and large, data for a given metric will need to be supplied by someone other than the Program Managers; however the Program Managers are accountable for making sure that certain metrics are tracked. They should make someone responsible for making sure a given metric is registered, the required tools for data collection are activated, and/or the periodic manual data collection happens (for example via email)
-
-Developer side
-
-Developers can prioritize implementation of tools based on demand, ease of implementation, available people, time, etc. The point being that implementation can now happen asynchronously, in a scalable way.
-
--->
-
