@@ -1,6 +1,6 @@
 ---
 name: New metric
-about: You have an idea for a new metric
+about: You have an idea for a new metric.
 title: ''
 labels: proposal
 assignees: ''
