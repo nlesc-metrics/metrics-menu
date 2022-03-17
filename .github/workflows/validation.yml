@@ -14,5 +14,5 @@ jobs:
       - name: Check out a copy of the repository
         uses: actions/checkout@v2
 
-      - name: Verify that all files under /metrics are valid accdoring to metrics/schema.json
+      - name: Verify that all files under /metrics are valid according to metrics/schema.json
         run: echo "TODO"
