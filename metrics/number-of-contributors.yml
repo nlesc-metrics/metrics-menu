@@ -1,0 +1,4 @@
+id: number-of-contributors
+data-collection: >- We could automatically count the number of contributors for all of
+  our repos, but it's currently not implemented.
+accountable: Frank Seinstra
