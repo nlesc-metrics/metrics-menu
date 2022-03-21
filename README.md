@@ -1,13 +1,7 @@
 # Proposal for implementing the collection of metrics 
 
-As the Netherlands eScience Center grows, keeping track of all the things we do is becoming increasingly difficult. This is a problem, for example for:
-
-1. Directors, who need to inform themselves about the state of the organization in order to steer the organization effectively;
-1. Program Managers, who need to keep track of what was achieved in a given project;
-1. Community Managers, who want to know what is being worked on in the Center at large;
-1. Policy Advisors, who need to prepare various reports;
-1. TechLeads, who need to know the state of a given software package;
-1. etc.
+As the Netherlands eScience Center grows, keeping track of all the things we do is becoming increasingly difficult. This
+is a problem, for example for Program Managers, who need to keep track of what was achieved in a given project.
 
 This document outlines how we can start with keeping track of various metrics. Some key points of the proposed approach are:
 
@@ -20,43 +14,20 @@ the narratives will be for each of these, and how our efforts should be distribu
 
 ## Approach
 
-There will be a metrics "menu" that lists all the things we can keep track of. Some examples:
+There will be a metrics "menu" that lists all the things we can keep track of. Initially, we focus on metrics related to
+software, as well as some metrics related to output and impact from the projects. Some examples:
 
 1. compliance with fair-software.nl for a given software package
 1. monthly rate of PyPI downloads for a given package
 1. number of peer-reviewed papers that were produced in a project (output)
 1. number of peer-reviewed papers that were produced based on what we did in a project (impact)
-1. geographic diversity of our call program
-1. institutional diversity of our call program
-1. number of training materials published in Journal of Open Source Education (or similar)
-1. number of members of NL-RSE 
-1. number of contributions to policies at Digital Competence Centers
-1. duration of employment
-1. long-duration sick leave
 1. etc.
 
-For some of these, data collection can be automated, while for some other metrics, data collection will need to happen
-manually.
+The current repository is used to maintain a list of metrics we can track automatically (currently, none). Program
+Managers can opt to register outputs from their projects so that the organization can start collecting data on a given
+metric in an automated way.
 
-<!--  
-and then what do we do with the metrics list
--->
-
-## Some examples of how it may work in practice
-
-<!--
-### Directors example
-
-- Rob: "_I want to know the total number of releases made on GitHub across all of our projects in 2020._"
-
-TODO
-
-- Monique: "_I want to know the number of people who were on sick leave for longer than 20 days in 2020._"
-
-TODO
--->
-
-### Program Managers example
+## How it may work in practice
 
 - Niels: "_I want to know the outputs of project X._"
 
@@ -69,41 +40,17 @@ necessary. Initially, they may decide on listing only a few things as output, fo
 
 But when new work is done (or even just planned), project stakeholders and the Program Managers should review the
 situation in the project and update the list of things that should be recorded as output. For example, after some time
-goes by they may update the list as follows:
+goes by, they may update the list as follows:
 
 1. Software repositories on GitHub
 1. Workshops
 1. Packages on PyPI
 1. Peer reviewed papers
 
-<!--
-### Community Managers example
-
-Mateusz: "_I want to know how many trainings we've given this year._"
-
-TODO
--->
-
-<!--
-### Policy Advisors example
-
-Tom: "_I want to support the "Our software is sustainable" narrative in the SEP report with numbers._"
-
-TODO
--->
-
-<!--
-### Tech Lead example
-
-Jason: "_I want to know if software package X has any license clashes with its own dependencies._"
-
-TODO
--->
-
 ## How can people propose new metrics?
 
 The preferred way of proposing a new metric is via GitHub's issue tracker on the repository dedicated to metrics
-collection at NLeSC https://github.com/nlesc/metrics. When you make a new issue there, you'll be shown the following:
+collection at NLeSC https://github.com/nlesc-metrics/metrics-menu. When you make a new issue there, you'll be shown the following:
 
 ![issue-types](https://user-images.githubusercontent.com/4558105/157683671-dc9bb5d8-498b-4556-b3c2-abb2d2d1f0ea.png)
 
