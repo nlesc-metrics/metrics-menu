@@ -17,10 +17,11 @@ the narratives will be for each of these, and how our efforts should be distribu
 There will be a metrics "menu" that lists all the things we can keep track of. Initially, we focus on metrics related to
 software, as well as some metrics related to output and impact from the projects. Some examples:
 
-1. compliance with fair-software.nl for a given software package
-1. monthly rate of PyPI downloads for a given package
-1. number of peer-reviewed papers that were produced in a project (output)
-1. number of peer-reviewed papers that were produced based on what we did in a project (impact)
+1. Does a given software package comply with the Five recommendations for FAIR software?
+1. For a given software package, what is the monthly download rate from PyPI?
+1. For a given software package, what is the bus factor?
+1. For a given software package, what is the time between releases?
+1. Is a given software package published in a community registry?
 1. etc.
 
 The current repository is used to maintain a list of metrics we can track automatically (currently, none). Program
@@ -35,17 +36,19 @@ While planning project X, the project stakeholders and program managers can come
 meaningful given the nature of the project. They can pick and choose from the metrics menu, extending it where
 necessary. Initially, they may decide on listing only a few things as output, for example:
 
-1. Software repositories on GitHub
-1. Workshops
+1. The software repository on GitHub
+1. The ReadTheDocs website that holds user documentation
 
 But when new work is done (or even just planned), project stakeholders and the Program Managers should review the
 situation in the project and update the list of things that should be recorded as output. For example, after some time
-goes by, they may update the list as follows:
+goes by and some work gets done, they may update the list as follows:
 
-1. Software repositories on GitHub
-1. Workshops
-1. Packages on PyPI
-1. Peer reviewed papers
+1. The original software repository on GitHub
+1. An additional software repository on GitHub
+1. The ReadTheDocs website that holds user documentation
+1. A package on PyPI
+1. Download statistics of the PyPI package
+1. The relevant page in a community registry
 
 ## How can people propose new metrics?
 
