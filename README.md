@@ -5,11 +5,11 @@ is a problem, for example for Program Managers, who need to keep track of what w
 
 This document outlines how we can start with keeping track of various metrics. Some key points of the proposed approach are:
 
-1. The list of what we want to keep track of is changable -- it will never be "done".
-1. The implementation of how we track metrics is changable -- it will never be "done".
+1. The list of what we want to keep track of is changeable -- it will never be "done".
+1. The implementation of how we track metrics is changeable -- it will never be "done".
 1. The successful implementation of the approach outlined below requires some technical skills, for example for querying
 APIs, meaningfully aggregating data, and presenting the data as visualizations, but also requires a good understanding
-of what is needed, for example with respect to which categories of the Self-Evaluation Protocol need to be covered, what
+of what is needed, for example with respect to which categories of the Strategy Evaluation Protocol need to be covered, what
 the narratives will be for each of these, and how our efforts should be distributed over the various categories.
 
 ## Approach
